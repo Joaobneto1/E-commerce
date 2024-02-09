@@ -32,7 +32,15 @@
 
 
 /*=============== HOME SWIPER ===============*/
+var homeSwiper = new Swiper(".home-swiper", {
+    spaceBetween: 30,
+    lop: 'true',
 
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 
@@ -40,7 +48,7 @@
 /*=============== NEW SWIPER ===============*/
 
 
-/*=============== SHOW SCROLL UP ===============*/ 
+/*=============== SHOW SCROLL UP ===============*/
 
 
 /*=============== LIGHT BOX ===============*/
