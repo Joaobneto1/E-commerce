@@ -1068,7 +1068,7 @@ input {
     }
 
     .discount__img {
-        justify-content: center;
+        justify-self: center;
         order: 1;
     }
 
@@ -1136,6 +1136,6 @@ input {
     }
 
     .steps__card {
-        padding: 1rem;
+        padding: 1.5rem;
     }
 }
